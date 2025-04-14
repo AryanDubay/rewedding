@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #fff8f5;
+    color: #333;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #ffe0e9;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #c44569;
+  }
+  
+  .subtitle {
+    font-style: italic;
+    margin-top: 0.2rem;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #c44569;
+    font-weight: bold;
+  }
+  
+  .hero {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .date-location {
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .rsvp {
+    padding: 2rem;
+    background-color: #fef6f9;
+    text-align: center;
+  }
+  
+  form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 0.7rem 1.5rem;
+    background-color: #c44569;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .gallery img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .gift-option {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .qr {
+    width: 200px;
+    margin-top: 1rem;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #c44569;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffe0e9;
+    margin-top: 2rem;
+  }
+  
